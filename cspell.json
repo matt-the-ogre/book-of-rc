@@ -1,22 +1,30 @@
 {
     "version": "0.2",
     "language": "en",
-    "dictionaries": ["en-us"],
+    "dictionaries": [
+        "en-us"
+    ],
     "ignorePaths": [
-      "site/**",
-      "*.png",
-      "*.jpg",
-      "*.webp"
+        "site/**",
+        "*.png",
+        "*.jpg",
+        "*.webp"
     ],
     "words": [
-      "MkDocs",
-      "rc",
-      "ESC",
-      "webp"
+        "Beadlock",
+        "ESC",
+        "Injora",
+        "MkDocs",
+        "Ovonic",
+        "rc",
+        "Savox",
+        "sensored",
+        "sensorless",
+        "webp",
+        "Zeee"
     ],
     "ignoreWords": [
-      "localhost",
-      "dev.local"
+        "localhost",
+        "dev.local"
     ]
-  }
-  
+}
