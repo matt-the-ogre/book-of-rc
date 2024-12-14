@@ -14,3 +14,15 @@ extra:
     - '<link rel="icon" type="image/png" href="images/favicons/favicon-48x48.png" sizes="48x48">'
     - '<link rel="apple-touch-icon" href="images/favicons/favicon-180x180.png">'
     - '<link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">'
+
+nav:
+  - Home: index.md
+  - The Basics of RC Vehicle Components:
+      - Introduction: basics/index.md
+      - Motors: basics/motors.md
+      - Batteries: basics/batteries.md
+      - ESCs: basics/escs.md
+      - Tires: basics/tires-and-wheels.md
+      - Controllers (Transmitter/Receiver): basics/controllers.md
+      - Servos: basics/servos.md
+      - Connectors: basics/connectors.md
