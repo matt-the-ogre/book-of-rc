@@ -1,0 +1,22 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaries": ["en-us"],
+    "ignorePaths": [
+      "site/**",
+      "*.png",
+      "*.jpg",
+      "*.webp"
+    ],
+    "words": [
+      "MkDocs",
+      "rc",
+      "ESC",
+      "webp"
+    ],
+    "ignoreWords": [
+      "localhost",
+      "dev.local"
+    ]
+  }
+  
