@@ -12,23 +12,25 @@
         <meta name="author" content="Matt Manuel">
       
       
-        <link rel="canonical" href="https://matt-the-ogre.github.io/book-of-rc/">
+        <link rel="canonical" href="https://matt-the-ogre.github.io/book-of-rc/basics/motors/">
       
       
+        <link rel="prev" href="../">
       
-        <link rel="next" href="basics/">
+      
+        <link rel="next" href="../batteries/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
-        <title>Book of RC</title>
+        <title>Motors - Book of RC</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
       
 
@@ -47,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-the-book-of-rc" class="md-skip">
+        <a href="#motors" class="md-skip">
           Skip to content
         </a>
       
@@ -82,9 +84,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Book of RC" class="md-header__button md-logo" aria-label="Book of RC" data-md-component="logo">
+    <a href="../.." title="Book of RC" class="md-header__button md-logo" aria-label="Book of RC" data-md-component="logo">
       
-  <img src="images/logo.webp" alt="logo">
+  <img src="../../images/logo.webp" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -101,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Motors
             
           </span>
         </div>
@@ -176,9 +178,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Book of RC" class="md-nav__button md-logo" aria-label="Book of RC" data-md-component="logo">
+    <a href="../.." title="Book of RC" class="md-nav__button md-logo" aria-label="Book of RC" data-md-component="logo">
       
-  <img src="images/logo.webp" alt="logo">
+  <img src="../../images/logo.webp" alt="logo">
 
     </a>
     Book of RC
@@ -190,19 +192,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -211,7 +204,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -220,17 +212,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -244,7 +238,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             The Basics of RC Vehicle Components
@@ -258,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -276,10 +270,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="basics/motors/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Motors
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -288,6 +302,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-motors-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Motors Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-your-motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matching Your Motor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#good-better-best-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good, Better, Best Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -300,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/batteries/" class="md-nav__link">
+      <a href="../batteries/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -321,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/escs/" class="md-nav__link">
+      <a href="../escs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -342,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/tires-and-wheels/" class="md-nav__link">
+      <a href="../tires-and-wheels/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -363,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/controllers/" class="md-nav__link">
+      <a href="../controllers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -384,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/servos/" class="md-nav__link">
+      <a href="../servos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -405,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="basics/connectors/" class="md-nav__link">
+      <a href="../connectors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -446,6 +516,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-motors-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Motors Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Specifications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matching-your-motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matching Your Motor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#good-better-best-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good, Better, Best Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -459,11 +573,45 @@
                   
 
 
-<h1 id="welcome-to-the-book-of-rc">Welcome to The Book of RC</h1>
-<p>Helping people discover and thrive in the world of Remote Control (RC) vehicles.</p>
-<p><img alt="Book cover" src="images/logo.webp" title="A cartoon image of a 4x4 remote control truck" /></p>
-<p>This started as my keeping a notebook as I built my own 3D-printed RC truck. I thought it would be useful for others to follow along and learn from my experience. If you have any feedback, please contact me through a GitHub Issue in the <a href="https://github.com/matt-the-ogre/book-of-rc/">public repository for this book</a>.</p>
-<p>(c) 2024 Matthew Alexander Manuel</p>
+<h1 id="motors">Motors</h1>
+<p>Motors are the heart of your RC vehicle, transforming electrical energy from your battery into motion. Picking the right motor is about balancing speed, torque, and efficiency to match your driving style and terrain. Let’s break it down.</p>
+<h2 id="how-motors-work">How Motors Work</h2>
+<p>RC motors come in two main types: brushed and brushless. <strong>Brushless motors</strong> are more efficient, durable, and powerful, making them the go-to choice for most RC enthusiasts. They use electronic commutation instead of physical brushes, reducing wear and increasing performance. On the other hand, <strong>brushed motors</strong> are simpler and cheaper, suitable for budget builds or casual use.</p>
+<h2 id="key-specifications">Key Specifications</h2>
+<ol>
+<li><strong>KV Rating</strong>: This measures the revolutions per minute (RPM) per volt applied to the motor. A higher KV rating means more speed but less torque. For off-road trucks, a <strong>KV range of 3300-3500</strong> is ideal for balanced performance.</li>
+<li><strong>Turns (T)</strong>: The "turns" of a motor represent how many times the wire is wound around the stator. Lower turns (e.g., 10.5T) mean higher speed but less torque. Higher turns (e.g., 13.5T) offer more torque and smoother control, making them better for off-road driving.</li>
+<li><strong>Size</strong>: Most 1/10 scale vehicles use <strong>540</strong> or <strong>550-sized motors</strong>. The 550 size is slightly larger and provides more torque, which is great for rough terrain.</li>
+<li><strong>Sensorless vs. Sensored</strong>: Sensorless motors are simpler and more durable, while sensored motors provide smoother control at low speeds. Off-road drivers often prefer sensored motors for their precision during technical maneuvers.</li>
+</ol>
+<h2 id="matching-your-motor">Matching Your Motor</h2>
+<p>Choosing the right motor depends on your driving goals:</p>
+<ul>
+<li><strong>Speed-focused builds</strong>: Go for a lower-turn or higher-KV motor.</li>
+<li><strong>Off-road and climbing</strong>: Opt for a higher-turn or lower-KV motor with more torque.</li>
+<li><strong>General use</strong>: A motor in the 3300-3500KV range or 13.5T is a balanced choice.</li>
+</ul>
+<h2 id="good-better-best-recommendations">Good, Better, Best Recommendations</h2>
+<ul>
+<li><strong>Good</strong>: <strong>Surpass Hobby Rocket V3 3650 3300KV</strong></li>
+<li>Affordable and reliable for beginners.</li>
+<li>
+<p>Great for off-road trucks with decent speed and torque.</p>
+</li>
+<li>
+<p><strong>Better</strong>: <strong>Hobbywing QuicRun 3652SD G2 3300KV</strong></p>
+</li>
+<li>Sensored motor for smooth low-speed control.</li>
+<li>
+<p>Excellent for off-road terrain and climbing.</p>
+</li>
+<li>
+<p><strong>Best</strong>: <strong>Castle Creations 1410-3800KV</strong></p>
+</li>
+<li>High-performance motor with advanced programmability.</li>
+<li>Perfect for experienced drivers wanting a mix of speed and torque.</li>
+</ul>
+<p>With these insights, you’ll be ready to pick the motor that drives your RC truck to its full potential. Let’s move on to the next piece of the puzzle—the ESC!</p>
 
 
 
@@ -510,10 +658,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
