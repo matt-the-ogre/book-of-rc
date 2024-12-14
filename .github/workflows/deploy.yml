@@ -1,4 +1,4 @@
-name: Deploy MkDocs
+name: Deploy Book of RC
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x' # Use a compatible Python version for MkDocs
+          python-version: '3.13' # Use a compatible Python version for MkDocs
 
       # Step 3: Install dependencies
       - name: Install MkDocs and Plugins
