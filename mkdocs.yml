@@ -2,6 +2,8 @@ site_name: Book of RC
 site_url: https://matt-the-ogre.github.io/book-of-rc
 site_author: Matt Manuel
 site_description: A book to help people discover and thrive in the world of Remote Control (RC) vehicles.
-site_favicon: images/favicon.ico
-site_logo: images/logo.webp
+
+theme:
+  name: material
+  logo: images/logo.webp
 
