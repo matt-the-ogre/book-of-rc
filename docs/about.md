@@ -1,6 +1,6 @@
 # About this book
 
-This is a personal passion project by Matt Manuel. While I'm publishing it online for free, the content, with the exception of some images, remains copyrighted.
+This is a personal passion project. While I'm publishing it online for free, the content, with the exception of some images, remains copyrighted.
 
 ## Contributions
 

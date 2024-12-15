@@ -58,3 +58,7 @@ nav:
       - Recon: builds/recon.md
       - Future Projects: builds/future-projects.md
   - About: about.md
+
+plugins:
+  - search
+  - mermaid2
