@@ -8,4 +8,4 @@ I'm building the 3D printed [Voyager_MK1](./voyager-mk1.md) 4x4 off road chassis
 
 !["Recon truck body"](../images/RECON-FIRST-VIEW-1024w.webp "The Recon 3D printed truck body from GCZ Creations")
 
-> *Note:* The above image is from the creator's site, not my build.
+> *Note:* The above images are from the creator's site, not my build.
