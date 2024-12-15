@@ -6,7 +6,7 @@ Assuming the [Voyager_MK1](./voyager-mk1.md) 4x4 chassis with the [Recon](./reco
 
 ## Planes
 
-I'd like to build a 3D printed RC plane too. It would be interesting to do theh first version with manual control and then add autonomous control as an upgrade.
+I'd like to build a 3D printed RC plane too. It would be interesting to do the first version with manual control and then add autonomous control as an upgrade.
 
 ## Boats
 
