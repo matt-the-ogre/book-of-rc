@@ -27,3 +27,34 @@ nav:
       - Servos: basics/servos.md
       - Connectors: basics/connectors.md
       - Putting it together: basics/putting-it-together.md
+  - RC Vehicle Types:
+      - Introduction: types/index.md
+      - Cars: types/cars.md
+      - Trucks: types/trucks.md
+      - Buggies: types/buggies.md
+      - Crawlers: types/crawlers.md
+      - Boats: types/boats.md
+      - Planes: types/planes.md
+      - Helicopters: types/helicopters.md
+      - Drones: types/drones.md
+  - RC Vehicle Maintenance:
+      - Introduction: maintenance/index.md
+      - Cleaning: maintenance/cleaning.md
+      - Lubrication: maintenance/lubrication.md
+      - Storage: maintenance/storage.md
+      - Troubleshooting: maintenance/troubleshooting.md
+  - RC Vehicle Upgrades:
+      - Introduction: upgrades/index.md
+      - Motors: upgrades/motors.md
+      - Batteries: upgrades/batteries.md
+      - ESCs: upgrades/escs.md
+      - Tires: upgrades/tires-and-wheels.md
+      - Controllers (Transmitter/Receiver): upgrades/controllers.md
+      - Servos: upgrades/servos.md
+      - Connectors: upgrades/connectors.md
+  - My Builds and Projects:
+      - Introduction: builds/index.md
+      - Voyager_MK1: builds/voyager-mk1.md
+      - Recon: builds/recon.md
+      - Future Projects: builds/future-projects.md
+  - About: about.md
