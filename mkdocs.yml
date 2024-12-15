@@ -61,4 +61,4 @@ nav:
 
 plugins:
   - search
-  - mermaid2
+#   - mermaid2
