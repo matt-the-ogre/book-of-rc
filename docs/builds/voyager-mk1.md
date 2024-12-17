@@ -1,6 +1,6 @@
 # Voyager_MK1
 
-I found the print files for the [Voyager_MK1](https://gcz-creation.com/voyager_mk1-2/) 4x4 3D printed truck chassis online and decided I wanted to build it. It's a 1/24 scale 4-wheel-drive chassis that looks quite functional and fun to use. The print files and build guide made by [GCZ Creation](https://gcz-creation.com/) and are free and available online. Thank you to GCZ Creation for inspiring me to start this RC Vehicle journey.
+I found the print files for the [Voyager_MK1](https://gcz-creation.com/voyager_mk1-2/) 4x4 3D printed truck chassis online and decided I wanted to build it. It's a 1/10 scale 4-wheel-drive chassis that looks quite functional and fun to use. The print files and build guide made by [GCZ Creation](https://gcz-creation.com/) and are free and available online. Thank you to GCZ Creation for inspiring me to start this RC Vehicle journey.
 
 !["Voyager_MK1 3D printed RC off road chassis"](../images/Voyager-mk1-1024w.webp "An RC truck 3D printed chassis")
 
