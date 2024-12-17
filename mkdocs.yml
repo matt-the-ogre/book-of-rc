@@ -14,6 +14,7 @@ extra:
     - '<link rel="icon" type="image/png" href="images/favicons/favicon-48x48.png" sizes="48x48">'
     - '<link rel="apple-touch-icon" href="images/favicons/favicon-180x180.png">'
     - '<link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">'
+    - <script defer data-domain="matt-the-ogre.github.io/book-of-rc" src="https://plausible.io/js/script.js"></script>
 #  analytics:
 #    provider: plausible
 #    domain: matt-the-ogre.github.io/book-of-rc/
