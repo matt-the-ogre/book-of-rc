@@ -16,7 +16,7 @@ extra:
     - '<link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">'
   analytics:
     provider: plausible
-    domain: matt-the-ogre.github.io/book-of-rc/
+    domain: matt-the-ogre.github.io/book-of-rc
     src: 'https://plausible.io/js/script.js'
 
 
