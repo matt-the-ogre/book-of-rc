@@ -4,7 +4,7 @@ This is a personal passion project. While I'm publishing it online for free, the
 
 ## Contributions
 
-If you'd like to contribute to this book, please get in touch via GitHub by creating an issue in the source repo. You may also fork the repo, make changes, and issue a Pull Request.
+If you'd like to contribute to this book, please get in touch via GitHub by creating an issue in the [source repo](https://github.com/matt-the-ogre/book-of-rc). You may also fork the repo, make changes, and issue a Pull Request.
 
 All contributions will receive full credit to the contributing author.
 

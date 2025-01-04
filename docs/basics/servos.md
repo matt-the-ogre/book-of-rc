@@ -10,8 +10,8 @@ A servo receives signals from the receiver and uses its internal motor to adjust
 
 1. **Motor**: Provides the rotational force.
 2. **Gears**: Transfer power from the motor to the output arm.
-   - Metal gears are stronger and more durable.
-   - Plastic gears are lighter but less resistant to wear.
+     - Metal gears are stronger and more durable.
+     - Plastic gears are lighter but less resistant to wear.
 3. **Case**: Protects the internal components. A waterproof case is crucial for off-road use.
 
 ## Key Specifications
@@ -64,4 +64,4 @@ The right servo depends on your vehicle’s size and intended use:
 
 ## Final Thoughts
 
-The right servo can make your RC truck feel smooth, responsive, and capable of handling even the toughest terrain. For a balance of performance and value, start with a servo like the Power HD 20kg, and upgrade to a high-performance option like the Reefs RC 422HD V2 as you push your truck to new limits. Next up: Tires and Wheels!
+The right servo can make your RC truck feel smooth, responsive, and capable of handling even the toughest terrain. For a balance of performance and value, start with a servo like the Power HD 20kg, and upgrade to a high-performance option like the Reefs RC 422HD V2 as you push your truck to new limits. Next up: [Tires and Wheels](./tires-and-wheels.md).

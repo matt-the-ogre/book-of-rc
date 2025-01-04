@@ -2,6 +2,8 @@
 
 Motors are the heart of your RC vehicle, transforming electrical energy from your battery into motion. Picking the right motor is about balancing speed, torque, and efficiency to match your driving style and terrain. Let’s break it down.
 
+![Electric motor](./images/motor.webp "An electric motor for an RC truck")
+
 ## How Motors Work
 
 RC motors come in two main types: brushed and brushless. **Brushless motors** are more efficient, durable, and powerful, making them the go-to choice for most RC enthusiasts. They use electronic commutation instead of physical brushes, reducing wear and increasing performance. On the other hand, **brushed motors** are simpler and cheaper, suitable for budget builds or casual use.
@@ -23,16 +25,19 @@ Choosing the right motor depends on your driving goals:
 
 ## Good, Better, Best Recommendations
 
-- **Good**: **Surpass Hobby Rocket V3 3650 3300KV**
-  - Affordable and reliable for beginners.
-  - Great for off-road trucks with decent speed and torque.
+### **Good**: **Surpass Hobby Rocket V3 3650 3300KV**
 
-- **Better**: **Hobbywing QuicRun 3652SD G2 3300KV**
-  - Sensored motor for smooth low-speed control.
-  - Excellent for off-road terrain and climbing.
+- Affordable and reliable for beginners.
+- Great for off-road trucks with decent speed and torque.
 
-- **Best**: **Castle Creations 1410-3800KV**
-  - High-performance motor with advanced programmability.
-  - Perfect for experienced drivers wanting a mix of speed and torque.
+### **Better**: **Hobbywing QuicRun 3652SD G2 3300KV**
 
-With these insights, you’ll be ready to pick the motor that drives your RC truck to its full potential. Let’s move on to the next piece of the puzzle—the ESC!
+- Sensored motor for smooth low-speed control.
+- Excellent for off-road terrain and climbing.
+
+### **Best**: **Castle Creations 1410-3800KV**
+
+- High-performance motor with advanced programmability.
+- Perfect for experienced drivers wanting a mix of speed and torque.
+
+With these insights, you’ll be ready to pick the motor that drives your RC truck to its full potential. Let’s move on to the next piece of the puzzle—the [ESC](./escs.md).

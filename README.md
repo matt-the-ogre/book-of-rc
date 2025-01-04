@@ -18,6 +18,7 @@ Ensure you have the following installed:
 ### Building and Running Locally
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/matt-the-ogre/book-of-rc.git
    cd book-of-rc
@@ -25,20 +26,26 @@ Ensure you have the following installed:
 
 2. **Install Dependencies**:
    Use `pip` to install MkDocs and the required dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Run the Local Development Server**:
    Start the MkDocs development server:
+
    ```bash
    mkdocs serve
    ```
+
    This will start a local server accessible at:
+
    ```
    http://127.0.0.1:8000
    ```
+
    If you’ve set up a custom hostname (e.g., `dev.local`), visit:
+
    ```
    http://dev.local:8000/book-of-rc/
    ```
@@ -52,5 +59,11 @@ The site is automatically deployed to GitHub Pages whenever changes are pushed t
 
 The live site is accessible at:
 **[https://matt-the-ogre.github.io/book-of-rc/](https://matt-the-ogre.github.io/book-of-rc/)**
+
+## Image resizing
+
+I'm using `webp` format images no larger than 1024x1024 pixels. Here's an ImageMagick command to resize images in place to that spec:
+
+`magick mogrify -resize 1024x1024 -format webp *.png`
 
 (c) 2024 Matthew Alexander Manuel
