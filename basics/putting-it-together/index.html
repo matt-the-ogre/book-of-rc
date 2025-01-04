@@ -1505,26 +1505,41 @@
 <h2 id="step-1-plan-your-build">Step 1: Plan Your Build</h2>
 <p>Before diving into assembly, it’s important to have a clear plan:</p>
 <ol>
-<li><strong>Define Your Goals</strong>:</li>
+<li><strong>Define Your Goals</strong>:<ul>
 <li>Are you building for speed, off-road capability, or a balance of both?</li>
 <li>Knowing this will guide your choices for components like motors and tires.</li>
-<li><strong>Check Compatibility</strong>:</li>
+</ul>
+</li>
+<li><strong>Check Compatibility</strong>:<ul>
 <li>Ensure your battery, ESC, motor, and connectors are compatible in terms of voltage, current, and physical fit.</li>
-<li><strong>Gather Tools</strong>:</li>
+</ul>
+</li>
+<li><strong>Gather Tools</strong>:<ul>
 <li>Essential tools include hex drivers, a soldering iron (if needed), a LiPo-safe bag, and a small toolkit.</li>
+</ul>
+</li>
 </ol>
 <h2 id="step-2-assemble-the-electronics">Step 2: Assemble the Electronics</h2>
 <h3 id="connect-the-esc">Connect the ESC</h3>
 <ul>
 <li>Mount the <strong>ESC</strong> securely in your chassis, ideally in a location with good airflow to prevent overheating.</li>
-<li>Plug the ESC into the <strong>receiver’s throttle channel (Channel 2)</strong>.</li>
+<li>Plug the ESC into the <strong>receiver’s throttle channel (Channel 2)</strong>.<ul>
+<li>Note the orientation of the plug: Be sure positive and ground are connected correctly: typically the red wire is positive and the black one is ground.</li>
+</ul>
+</li>
 <li>Connect the <strong>ESC to the motor</strong> using the bullet connectors. Match the wires (A, B, C) for sensorless setups or follow the manufacturer’s instructions for sensored systems.</li>
 </ul>
+<blockquote>
+<p>Sidebar: Motor direction. If you hook up your whole system and notice your motor is turning the opposite way to what you expected or wanted, just swap any of the two out of three wires and it will spin the other direction. This assumes you're using a three-wire brushless motor and compatible ESC.</p>
+</blockquote>
 <h3 id="install-the-servo">Install the Servo</h3>
 <ul>
 <li>Mount the steering <strong>servo</strong> in the designated spot on your chassis.</li>
 <li>Connect the servo horn or linkage to the steering mechanism.</li>
-<li>Plug the servo into <strong>Channel 1</strong> on the receiver.</li>
+<li>Plug the servo into <strong>Channel 1</strong> on the receiver.<ul>
+<li>Note the orientation of the plug: Be sure positive and ground are connected correctly: typically the red wire is positive and the black one is ground.</li>
+</ul>
+</li>
 </ul>
 <h3 id="add-the-battery">Add the Battery</h3>
 <ul>
@@ -1539,25 +1554,39 @@
 </ul>
 <h2 id="step-4-bind-the-receiver-and-transmitter">Step 4: Bind the Receiver and Transmitter</h2>
 <ul>
-<li>Follow your transmitter’s instructions to bind it with the receiver.</li>
-<li>Test all channels to ensure proper communication:</li>
+<li>Follow your transmitter’s instructions to bind it with the receiver.<ul>
+<li>Note that most kits that include both a transmitter and receiver together come pre-bound from the factory.</li>
+</ul>
+</li>
+<li>Turn on your transmitter first, then your receiver (in the vehicle.) This ensures proper communication and prevents the vehicle from receiving stray signals that might cause damage.</li>
+<li>Test all channels to ensure proper communication:<ul>
 <li>Channel 1: Steering.</li>
 <li>Channel 2: Throttle/brake.</li>
+</ul>
+</li>
 <li>Adjust endpoints and trims as needed for precise control.</li>
 </ul>
 <h2 id="step-5-perform-a-safety-check">Step 5: Perform a Safety Check</h2>
 <ol>
-<li><strong>Inspect All Connections</strong>:</li>
+<li><strong>Inspect All Connections</strong>:<ul>
 <li>Ensure all wires are securely connected and insulated.</li>
-<li><strong>Test Throttle and Steering</strong>:</li>
+</ul>
+</li>
+<li><strong>Test Throttle and Steering</strong>:<ul>
 <li>Lift the vehicle and test the throttle, brake, and steering functions before placing it on the ground.</li>
-<li><strong>Check for Interference</strong>:</li>
+</ul>
+</li>
+<li><strong>Check for Interference</strong>:<ul>
 <li>Modern 2.4GHz systems rarely have interference, but it’s worth confirming in a controlled environment.</li>
+</ul>
+</li>
 </ol>
 <h2 id="step-6-hit-the-road-or-trail">Step 6: Hit the Road (or Trail)</h2>
 <p>Once everything checks out, your RC truck is ready to roll! Start slow to ensure everything functions as expected, then push the limits as you gain confidence.</p>
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>Building an RC truck from scratch is as rewarding as it is exciting. By understanding and carefully assembling each component, you’ll not only have a powerful machine but also the satisfaction of knowing every detail of your build. Take your time, experiment with upgrades, and most importantly, enjoy the ride!</p>
+<p>Here's my Voyager_MK1 build so far using all the components and choices we've covered in this section.</p>
+<p><img alt="Voyager_Mk1 chassis" src="../images/voyager_mk1.webp" title="A 3D-printed 1/10 scale 4x4 RC truck chassis as built by the author." /></p>
 
 
 
